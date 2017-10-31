@@ -1,0 +1,166 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+x	background-size: cover;
+	/*background: url(../images/fondo.jpg);
+	color:#FFF; /* # FFF color blanco */
+	/*font-family: “Chalet”, Helvetica, Verdana;*/
+	font-size: 18px;
+}
+
+nav{
+	 margin-left: 400px;
+	width: 800px;
+	font-family: arial, Helvetica
+}
+
+nav ul, ol, li{
+	list-style: none;
+}
+
+.menu li a{font-size: 16px}
+
+
+.menu li a{
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display:block;
+}
+
+
+.menu > li{
+	float:left;
+}
+
+
+.menu li a:hover {
+	background-color: #434343;
+}
+
+
+.menu li ul {
+	display:none;
+	position: absolute;
+	min-width: 140px;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+.menu li ul li {
+	position: relative;
+}
+
+.menu li ul li {
+	position:relative;
+}	
+.menu li ul li ul {
+	right:-140px;
+	top: 0px; 
+}
+
+#header{
+
+	background: url(../images/fondo.jpg);
+	height: 150px;
+}
+
+#header h1{
+	margin: 10px;
+	font-size: 38px;
+	color: #fff;
+	font-family: arial, Helvetica;
+	width: 300px;
+    float: left;
+    margin-left: 800px;
+}
+#header h2{
+	margin: 10px;
+	font-size: 55px;
+	color: #ff5900;
+	font-family: arial, Helvetica;
+	width: 550px;
+	float: left;
+	margin-left: 550px;
+}
+#header img{
+	margin: 15px;
+	float: left;
+	max-width: 150px;
+    max-height: 150px;
+
+}
+#navegador{
+	background-color: #000;
+	height: 45px;
+}
+#marco{
+	border-radius: 5px;
+	background: url(../images/bd.jpg);#ddd;
+	height: 1000px;
+	width: 820px;
+    float: left;
+    margin-left:275px;
+}
+
+
+#objetivos_ovi{
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	padding: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 270px;
+	float: left;
+	font-family: arial, Helvetica;
+	text-align: justify;
+	height: 800px;
+}
+
+#objetivos_curso{
+	border-radius: 5px;
+	background-color:rgba(255, 255, 255,0.8);
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	padding: 40px;
+	margin-left: 40px;
+	margin-top: 20px;
+	width: 270px;
+	float: left;
+	font-family: arial, Helvetica;
+	text-align: justify;
+	height: 800px;
+}
+#objetivos_curso h2{
+	font-size: 20px;
+}
+#objetivos_curso h1{
+	color: #ff5900;
+}
+#objetivos_ovi h2{
+	font-size: 20px;
+}
+#objetivos_ovi h1{
+	color: #ff5900;
+}
+
+#footer{
+	background: rgb(0,0,0);
+	height: 250px;
+
+	}
+
+
+
+
+
+
+
