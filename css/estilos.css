@@ -49,7 +49,7 @@ nav ul, ol, li{
 .menu li ul {
 	display:none;
 	position: absolute;
-	width: 140px;
+	width: 170px;
 	text-align: center;
 }
 
@@ -64,7 +64,7 @@ nav ul, ol, li{
 	position:relative;
 }	
 .menu li ul li ul {
-	right:-140px;
+	right:-170px;
 	top: 0px; 
 	text-align: center;
 }
@@ -113,7 +113,7 @@ nav ul, ol, li{
 #marco{
 	background: url(../images/bd.jpg);#ddd;
 	height: 1000px;
-	width: 820px;
+	width: 780px;
     float: left;
     margin-left:280px;
 }
@@ -124,9 +124,9 @@ nav ul, ol, li{
 	background-color: rgba(255, 255, 255,0.8);
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	padding: 40px;
-	margin-left: 40px;
+	margin-left: 32px;
 	margin-top: 40px;
-	width: 270px;
+	width: 260px;
 	float: left;
 	font-family: arial, Helvetica;
 	text-align: justify;
@@ -140,7 +140,7 @@ nav ul, ol, li{
 	padding: 40px;
 	margin-left: 40px;
 	margin-top: 40px;
-	width: 270px;
+	width: 260px;
 	float: left;
 	font-family: arial, Helvetica;
 	text-align: justify;
@@ -164,7 +164,7 @@ nav ul, ol, li{
 	#marco1{
 	background: url(../images/bd.jpg);#ddd;
 	height: 1000px;
-	width: 820px;
+	width: 780px;
     float: left;
     margin-left:10px;
     box-shadow
@@ -182,13 +182,12 @@ nav ul, ol, li{
 	background-color:rgba(255, 255, 255,0.8);
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	padding: 40px;
-	margin-left: 40px;
 	margin-top: 20px;
 	width: 620px;
 	font-family: arial, Helvetica;
 	text-align: justify;
 	height: 840px;
-	margin-left: 60px;
+	margin-left: 40px;
 }
 
 #texto h1{
@@ -265,5 +264,24 @@ nav ul, ol, li{
 	max-width: 270px;
 	max-height:240px;
 	}
+/*---------------------------------------------------------------*/
+#img4{
+	width: 270px;
+	height:202px;
+	box-shadow: 0 0 30px rgba(244,121,32,1);
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	}
+#img4 img{
+	max-width: 270px;
+	max-height:240px;
+	}
 
+#texto img{
+	
+	width: 600px;
+	margin-left: 15px
+
+}
 
