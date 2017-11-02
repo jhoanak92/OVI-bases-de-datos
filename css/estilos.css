@@ -103,6 +103,13 @@ nav ul, ol, li{
 	background-color: #000;
 	height: 45px;
 }
+#footer{
+	background: rgb(0,0,0);
+	height: 250px;
+}
+
+/*---------------------------------------------------------------*/
+
 #marco{
 	background: url(../images/bd.jpg);#ddd;
 	height: 1000px;
@@ -152,11 +159,9 @@ nav ul, ol, li{
 	color: #ff5900;
 }
 
-#footer{
-	background: rgb(0,0,0);
-	height: 250px;
-}
-	#marco-c{
+
+/*---------------------------------------------------------------*/
+	#marco1{
 	background: url(../images/bd.jpg);#ddd;
 	height: 1000px;
 	width: 820px;
@@ -166,38 +171,84 @@ nav ul, ol, li{
 }
 #img{
 	width: 270px;
-	height:400px;
+	height:300px;
 	box-shadow: 0 0 30px rgba(244,121,32,1);
 	float: left;
 	margin-left: 10px;
 	margin-top: 10px;
 	}
-#concepto{
-	border-radius: 20px;
+#texto{
+	border-radius: 30px;
 	background-color:rgba(255, 255, 255,0.8);
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	padding: 40px;
 	margin-left: 40px;
 	margin-top: 20px;
-	width: 600px;
+	width: 620px;
 	font-family: arial, Helvetica;
 	text-align: justify;
 	height: 840px;
 	margin-left: 60px;
-
 }
 
-#concepto h1{
+#texto h1{
 	color: rgb(244,121,32);
+	font-size: 35px;
 }
+
+#texto p{
+	width: 500px;
+	margin-left: 65px;
+
+
+}
+
 #img img{
-		max-width: 270px;
+	max-width: 270px;
     max-height: 400px;
 }
 
+#texto h2{
+	font-size: 30px;
+}
+#texto ul{
+	width: 500px;
+	margin-left: 65px;
 
 
+}
+/*---------------------------------------------------------------*/
+
+#img1{
+	width: 270px;
+	height:320px;
+	box-shadow: 0 0 30px rgba(244,121,32,1);
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	}
+
+#img1 img{
+	max-width: 270px;
+	max-height: 400px;
+	}
 
 
+#img2{
+	width: 270px;
+	height:270px;
+	box-shadow: 0 0 30px rgba(244,121,32,1);
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	}
 
+#img2 img{
+	max-width: 270px;
+	max-height: 300px;
+	}
+/*---------------------------------------------------------------*/
 
+#texto h3{
+	margin-left: 65px;
+}
